@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="T_DITA_Prerequisites"
+               path="DOC/topic/To_DITA_Prerequisites.html#T_DITA_Prerequisites"/>
+   <appContext helpID="T_DITA_ToolsPrerequisites"
+               path="DOC/topic/To_DITA_Prerequisites.html#T_DITA_ToolsPrerequisites"/>
+   <appContext helpID="untitled2"
+               path="DOC/topic/To_DITA_Prerequisites.html#untitled2"/>
+   <appContext helpID="T_DITA_SetPereferences"
+               path="DOC/topic/To_DITA_Prerequisites.html#T_DITA_SetPereferences"/>
+   <appContext helpID="To_DITA_WritingGuidelines"
+               path="DOC/topic/To_DITA_WritingGuidelines.html"/>
+   <appContext helpID="To_DITA_Directories" path="DOC/topic/To_DITA_Directories.html"/>
+   <appContext helpID="To_DITA_NamingCOnventions"
+               path="DOC/topic/To_DITA_NamingConventions.html"/>
+   <appContext helpID="To_DITA_CreateKeywordsEntities"
+               path="DOC/task/T_DITA_CreateEntities.html"/>
+   <appContext helpID="T_DITA_IsolateReusableSteps"
+               path="DOC/task/T_DITA_IsolateReusableSteps.html"/>
+   <appContext helpID="T_DITA_CallEntities" path="DOC/task/T_DITA_CallEntities.html"/>
+   <appContext helpID="T_DITA_IncludePartNumbers"
+               path="DOC/task/T_DITA_IncludePartNumbers.html#T_DITA_IncludePartNumbers"/>
+   <appContext helpID="T_DITA_UpdatePartNumber"
+               path="DOC/task/T_DITA_IncludePartNumbers.html#T_DITA_UpdatePartNumber"/>
+   <appContext helpID="T_DITA_IncludeReferenceToPnInDitamap"
+               path="DOC/task/T_DITA_IncludePartNumbers.html#T_DITA_IncludeReferenceToPnInDitamap"/>
+   <appContext helpID="T_DITA_InsertPnDitamap"
+               path="DOC/task/T_DITA_IncludePartNumbers.html#T_DITA_InsertPnDitamap"/>
+   <appContext helpID="To_DITA_CreateTopicTitle"
+               path="DOC/topic/To_DITA_CreateTopicTitle.html"/>
+   <appContext helpID="T_DITA_CreateDitamap" path="DOC/task/T_DITA_CreateDitamap.html"/>
+   <appContext helpID="T_SetDitamap" path="DOC/task/T_DITA_SetDitamap.html"/>
+   <appContext helpID="T_DITA_AddTopics" path="DOC/task/T_DITA_AddTopics.html"/>
+   <appContext helpID="untitled7" path="DOC/task/T_CreateGlossaryTopic.html"/>
+   <appContext helpID="T_DITA_EditTopics" path="DOC/task/T_DITA_EditTopics.html"/>
+   <appContext helpID="T_DITA_AddConditions" path="DOC/task/T_DITA_AddConditions.html"/>
+   <appContext helpID="T_DITA_InsertConditions"
+               path="DOC/task/T_DITA_InsertConditions.html"/>
+   <appContext helpID="T_DITA_InsertConditionsPartOfTopics"
+               path="DOC/task/T_DITA_InsertConditionsPartOfTopics.html"/>
+   <appContext helpID="T_DITA_InsertCondtionsInTransformation"
+               path="DOC/task/T_DITA_InsertCondtionsInTransformation.html"/>
+   <appContext helpID="To_DITA_TransformToOutput"
+               path="DOC/topic/To_DITA_TransformToOutput.html"/>
+   <appContext helpID="T_DITA_GeneratePdf"
+               path="DOC/task/T_DITA_GeneratePdf.html#T_DITA_GeneratePdf"/>
+   <appContext helpID="T_DITA_PDFOpenDITAMapFile"
+               path="DOC/task/T_DITA_GeneratePdf.html#T_DITA_PDFOpenDITAMapFile"/>
+   <appContext helpID="T_DITA_CreatePdfTransformationScenario"
+               path="DOC/task/T_DITA_GeneratePdf.html#T_DITA_CreatePdfTransformationScenario"/>
+   <appContext helpID="T_DITA_GenerateWebhelp"
+               path="DOC/task/T_DITA_GenerateWebhelp.html#T_DITA_GenerateWebhelp"/>
+   <appContext helpID="T_DITA_HTMLOpenDitamap"
+               path="DOC/task/T_DITA_GenerateWebhelp.html#T_DITA_HTMLOpenDitamap"/>
+   <appContext helpID="T_DITA_HTMLCreateTransformation"
+               path="DOC/task/T_DITA_GenerateWebhelp.html#T_DITA_HTMLCreateTransformation"/>
+   <appContext helpID="T_DITA_GeneratePdfMd"
+               path="DOC/task/T_DITA_GeneratePdfMd.html#T_DITA_GeneratePdfMd"/>
+   <appContext helpID="T_DITA_DuplicateDitaMapFile"
+               path="DOC/task/T_DITA_GeneratePdfMd.html#T_DITA_DuplicateDitaMapFile"/>
+   <appContext helpID="T_DITA_UpdateReleaseVersionNumber"
+               path="DOC/task/T_DITA_GeneratePdfMd.html#T_DITA_UpdateReleaseVersionNumber"/>
+   <appContext helpID="T_DITA_CopyMdFromGitlab"
+               path="DOC/task/T_DITA_GeneratePdfMd.html#T_DITA_CopyMdFromGitlab"/>
+   <appContext helpID="T_DITA_UpdateDitamapWithMdFile"
+               path="DOC/task/T_DITA_GeneratePdfMd.html#T_DITA_UpdateDitamapWithMdFile"/>
+   <appContext helpID="T_DITA_CreateTransformtionAndPDF"
+               path="DOC/task/T_DITA_GeneratePdfMd.html#T_DITA_CreateTransformtionAndPDF"/>
+   <appContext helpID="To_DITA_DeliverOutput"
+               path="DOC/topic/To_DITA_DeliverOutput.html#To_DITA_DeliverOutput"/>
+   <appContext helpID="To_DITA_DeliverHtml"
+               path="DOC/topic/To_DITA_DeliverOutput.html#To_DITA_DeliverHtml"/>
+   <appContext helpID="T_DITA_DeliverPDFs"
+               path="DOC/topic/To_DITA_DeliverOutput.html#T_DITA_DeliverPDFs"/>
+   <appContext helpID="T_DITA_DeliverRnSharepoint"
+               path="DOC/topic/To_DITA_DeliverOutput.html#T_DITA_DeliverRnSharepoint"/>
+   <appContext helpID="T_DITA_Troubleshooting"
+               path="DOC/topic/T_DITA_Troubleshooting.html#T_DITA_Troubleshooting"/>
+   <appContext helpID="TS_DITA_BuildFailedOpenPDF"
+               path="DOC/topic/T_DITA_Troubleshooting.html#TS_DITA_BuildFailedOpenPDF"/>
+</map>
