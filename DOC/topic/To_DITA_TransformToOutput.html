@@ -1,0 +1,129 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="21.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2020" /><meta name="DC.rights.owner" content="(C) Copyright 2020" /><meta name="DC.type" content="topic" /><meta name="description" content="Follow the instructions to create a PDF file or HTML files from DITA topics." /><meta name="DC.relation" scheme="URI" content="../../DOC/task/T_DITA_GeneratePdf.html#T_DITA_GeneratePdf" /><meta name="DC.relation" scheme="URI" content="../../DOC/task/T_DITA_GenerateWebhelp.html#T_DITA_GenerateWebhelp" /><meta name="DC.relation" scheme="URI" content="../../DOC/task/T_DITA_GeneratePdfMd.html#T_DITA_GeneratePdfMd" /><meta name="DC.relation" scheme="URI" content="../task/T_DITA_GeneratePdf.html#T_DITA_GeneratePdf" /><meta name="DC.relation" scheme="URI" content="../task/T_DITA_GenerateWebhelp.html#T_DITA_GenerateWebhelp" /><meta name="DC.relation" scheme="URI" content="../task/T_DITA_GeneratePdfMd.html#T_DITA_GeneratePdfMd" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="To_DITA_TransformToOutput" />        
+      <title>Generate PDF and Webhelp outputs</title><!--  Generated with Oxygen version 21.1, build number 2019112512.  --><meta name="wh-path2root" content="../../" /><meta name="wh-toc-id" content="To_DITA_TransformToOutput-d62e276" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="../../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic-page.css?buildId=2019112512" /><script type="text/javascript" src="../../oxygen-webhelp/lib/jquery/jquery-3.4.1.min.js"><!----></script><script data-main="../../oxygen-webhelp/app/topic-page.js" src="../../oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/vanderlande.css?buildId=2019112512" /></head>
+
+    <body id="To_DITA_TransformToOutput" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="21.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="https://www.vanderlande.com/" class=" wh_logo d-none d-sm-block "><img src="../../oxygen-webhelp\template\resources/images/vanderlande-logo.png" alt="  instructions manual  DITA writing  " /></a>
+                    <div class=" wh_publication_title "><a href="../../index.html"><span class="booktitle">  <span class="ph booklibrary">instructions manual</span>  <span class="ph mainbooktitle">DITA writing</span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+         
+              
+                <!--<whc:webhelp_search_input href="${webhelp.fragment.before.top_menu}"/>-->
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem"><span id="T_DITA_Prerequisites-d62e35-mi" data-tocid="T_DITA_Prerequisites-d62e35" data-state="leaf" class=" topicref " data-id="T_DITA_Prerequisites"><span class="title"><a href="../../DOC/topic/To_DITA_Prerequisites.html#T_DITA_Prerequisites">Before you start</a></span></span></li><li role="menuitem"><span id="To_DITA_WritingGuidelines-d62e74-mi" data-tocid="To_DITA_WritingGuidelines-d62e74" data-state="leaf" class=" topicref " data-id="To_DITA_WritingGuidelines"><span class="title"><a href="../../DOC/topic/To_DITA_WritingGuidelines.html">Writing guidelines</a></span></span></li><li role="menuitem"><span id="To_DITA_CreateTopicTitle-d62e167-mi" data-tocid="To_DITA_CreateTopicTitle-d62e167" data-state="leaf" class=" topicref " data-id="To_DITA_CreateTopicTitle"><span class="title"><a href="../../DOC/topic/To_DITA_CreateTopicTitle.html">Write topics</a></span></span></li><li role="menuitem"><span id="To_DITA_TransformToOutput-d62e276-mi" data-tocid="To_DITA_TransformToOutput-d62e276" data-state="leaf" class=" topicref " data-id="To_DITA_TransformToOutput"><span class="title"><a href="../../DOC/topic/To_DITA_TransformToOutput.html">Generate PDF and Webhelp outputs</a></span></span></li><li role="menuitem"><span id="To_DITA_DeliverOutput-d62e399-mi" data-tocid="To_DITA_DeliverOutput-d62e399" data-state="leaf" class=" topicref " data-id="To_DITA_DeliverOutput"><span class="title"><a href="../../DOC/topic/To_DITA_DeliverOutput.html#To_DITA_DeliverOutput">Deliver outputs</a></span></span></li><li role="menuitem"><span id="T_DITA_Troubleshooting-d62e447-mi" data-tocid="T_DITA_Troubleshooting-d62e447" data-state="leaf" class=" topicref " data-id="T_DITA_Troubleshooting"><span class="title"><a href="../../DOC/topic/T_DITA_Troubleshooting.html#T_DITA_Troubleshooting">Troubleshooting</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="../../index.html"><span>Home</span></a></span></li><li class="active"><span class="topicref" data-id="To_DITA_TransformToOutput"><span class="title"><a href="../../DOC/topic/To_DITA_TransformToOutput.html">Generate PDF and Webhelp outputs</a><span class="wh-tooltip">     Follow the instructions to create a PDF file or HTML files from DITA topics. </span></span></span></li></ol></div>
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader"></span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true" class="active"><span data-tocid="To_DITA_TransformToOutput-d62e276" class="topicref" data-id="To_DITA_TransformToOutput" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action To_DITA_TransformToOutput-d62e276-link" class="wh-expand-btn"></span><span class="title"><a href="../../DOC/topic/To_DITA_TransformToOutput.html" id="To_DITA_TransformToOutput-d62e276-link">Generate PDF and Webhelp outputs</a><span class="wh-tooltip">     Follow the instructions to create a PDF file or HTML files from DITA topics. </span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="T_DITA_GeneratePdf-d62e287" class="topicref" data-id="T_DITA_GeneratePdf" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../DOC/task/T_DITA_GeneratePdf.html#T_DITA_GeneratePdf" id="T_DITA_GeneratePdf-d62e287-link">Generate a PDF from a ditamap file</a><span class="wh-tooltip">This procedure explains how to generate a PDF from dita topics with oXygen XML Editor.</span></span></span></li><li role="treeitem"><span data-tocid="T_DITA_GenerateWebhelp-d62e314" class="topicref" data-id="T_DITA_GenerateWebhelp" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../DOC/task/T_DITA_GenerateWebhelp.html#T_DITA_GenerateWebhelp" id="T_DITA_GenerateWebhelp-d62e314-link">Generate a webhelp from a ditamap file</a><span class="wh-tooltip">The following procedure provides instructions on how to generate the HTML webhelp to         be integrated to the <dfn xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="term">Vanderlande Portal</dfn>.</span></span></span></li><li role="treeitem"><span data-tocid="T_DITA_GeneratePdfMd-d62e344" class="topicref" data-id="T_DITA_GeneratePdfMd" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../DOC/task/T_DITA_GeneratePdfMd.html#T_DITA_GeneratePdfMd" id="T_DITA_GeneratePdfMd-d62e344-link">Generate a PDF from a markdown file</a><span class="wh-tooltip">This procedure explains how to generate a PDF with the Vanderlande look and feel from         a markdown file. This procedure applies to the generation of the PDF version of the <dfn xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="term">PAX CHECKPOINT Screening Software</dfn> migration procedure.</span></span></span></li></ul></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Generate PDF and Webhelp outputs</h1>
+
+    <div class="body"><p class="shortdesc">
+    Follow the instructions to create a PDF file or HTML files from DITA topics.
+</p>
+       
+            <p class="p">To transform the topics into an output, you need to run a transformation from oXygen
+            XML Editor.</p>    
+ 
+     
+    </div>
+    
+</article></main></div>
+                        
+                        <div class=" wh_related_links "><nav role="navigation" class="related-links"><div class="linklist relinfo reltasks"><strong>Related tasks</strong><br /><ul class="linklist related_link"><li class="linklist"><a class="navheader_parent_path" href="../task/T_DITA_GeneratePdf.html#T_DITA_GeneratePdf" title="This procedure explains how to generate a PDF from dita topics with oXygen XML Editor.">Generate a PDF from a ditamap file</a></li><li class="linklist"><a class="navheader_parent_path" href="../task/T_DITA_GenerateWebhelp.html#T_DITA_GenerateWebhelp" title="The following procedure provides instructions on how to generate the HTML webhelp to be integrated to the Vanderlande Portal.">Generate a webhelp from a ditamap file</a></li><li class="linklist"><a class="navheader_parent_path" href="../task/T_DITA_GeneratePdfMd.html#T_DITA_GeneratePdfMd" title="This procedure explains how to generate a PDF with the Vanderlande look and feel from a markdown file. This procedure applies to the generation of the PDF version of the PAX CHECKPOINT Screening Software migration procedure.">Generate a PDF from a markdown file</a></li></ul></div></nav></div>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="21.1">
+  <div class=" footer-container mx-auto ">
+    
+        <div class="footer">Confidential and property of Vanderlande <br /> © Copyright 2019, Vanderlande, All rights reserved.</div>
+        
+    
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>
