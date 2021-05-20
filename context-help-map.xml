@@ -4,8 +4,8 @@
                path="DOC/topic/To_DITA_Prerequisites.html#T_DITA_Prerequisites"/>
    <appContext helpID="T_DITA_ToolsPrerequisites"
                path="DOC/topic/To_DITA_Prerequisites.html#T_DITA_ToolsPrerequisites"/>
-   <appContext helpID="untitled2"
-               path="DOC/topic/To_DITA_Prerequisites.html#untitled2"/>
+   <appContext helpID="CloneGitlabProject"
+               path="DOC/topic/To_DITA_Prerequisites.html#CloneGitlabProject"/>
    <appContext helpID="T_DITA_SetPereferences"
                path="DOC/topic/To_DITA_Prerequisites.html#T_DITA_SetPereferences"/>
    <appContext helpID="To_DITA_WritingGuidelines"
@@ -40,6 +40,8 @@
                path="DOC/task/T_DITA_InsertConditionsPartOfTopics.html"/>
    <appContext helpID="T_DITA_InsertCondtionsInTransformation"
                path="DOC/task/T_DITA_InsertCondtionsInTransformation.html"/>
+   <appContext helpID="DITA_TortoiseCommitChanges"
+               path="DOC/task/T_DITA_TortoiseCommitChanges.html"/>
    <appContext helpID="To_DITA_TransformToOutput"
                path="DOC/topic/To_DITA_TransformToOutput.html"/>
    <appContext helpID="T_DITA_GeneratePdf"
@@ -78,4 +80,6 @@
                path="DOC/topic/T_DITA_Troubleshooting.html#T_DITA_Troubleshooting"/>
    <appContext helpID="TS_DITA_BuildFailedOpenPDF"
                path="DOC/topic/T_DITA_Troubleshooting.html#TS_DITA_BuildFailedOpenPDF"/>
+   <appContext helpID="TS_DITA_CommitFailed"
+               path="DOC/topic/T_DITA_Troubleshooting.html#TS_DITA_CommitFailed"/>
 </map>
